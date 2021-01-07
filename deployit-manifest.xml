@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<udm.DeploymentPackage version="{{XLDEPLOY_VERSION}}" application="{{XLDEPLOY_APPLICATION}}">
+  <application />
+  <orchestrator />
+  <deployables>
+    <jee.War name="petclinic" file="petclinic.war">
+      <tags />
+      <scanPlaceholders>false</scanPlaceholders>
+    </jee.War>
+  </deployables>
+  <applicationDependencies />
+  <dependencyResolution>LATEST</dependencyResolution>
+  <undeployDependencies>false</undeployDependencies>
+</udm.DeploymentPackage>
