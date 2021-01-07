@@ -55,7 +55,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>petclinic</servlet-name>
+        <servlet-name>petclinic-{{env}}</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
